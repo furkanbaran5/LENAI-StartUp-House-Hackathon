@@ -1,8 +1,6 @@
 
 # LENAI StartUp House Hackathon Project
 
-![Project Banner](./Photos/SystemDesign.png)
-
 ## Project Overview
 
 **DAY EYE** is an AI-powered platform designed to help businesses create, analyze, and optimize social media advertisements with state-of-the-art Large Language Models (LLMs). The project leverages **Llama 4 Maverick** and **Retrieval-Augmented Generation (RAG)** techniques to provide actionable insights and automated ad creation tailored for user needs.  
@@ -64,6 +62,25 @@ LENAI-StartUp-House-Hackathon/
 1. **Small Business Owners:** Generate effective ads without requiring in-depth marketing knowledge.
 2. **Digital Marketing Teams:** Automate campaign creation and analyze multiple ad variations quickly.
 3. **Content Creators & Agencies:** Optimize ad engagement by leveraging AI-generated strategies based on historical data and trends.
+
+## Screenshots
+
+These screenshots illustrate the system, AI workflows, and ad generation interface:
+
+**Input Page**  
+![System Design](./Photos/inputproduct.png)
+
+**Output Page-1**  
+![Frontend Example 1](./Photos/showall.png)
+
+**Output Page-2**  
+![Frontend Example 2](./Photos/show2.png)
+
+**Subscribtion**  
+![Backend Example](./Photos/packages.png)
+
+**Form Page**  
+![Backend Example](./Photos/infopage.png)
 
 ---
 ## Contact
