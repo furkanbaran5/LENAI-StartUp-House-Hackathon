@@ -1,0 +1,54 @@
+Bir web sitesi tasarla.
+Tema: Modern, teknolojik ve güven veren bir startup tasarımı olsun. Renk paleti: koyu mavi, açık gri ve mor tonları.
+Şirket konsepti: "Yapay zekâ destekli reklam stratejileri geliştiren ve Meta (Facebook & Instagram) üzerinden otomatik reklam yönetimi yapan startup ajansı."
+Sayfalar:
+Ana Sayfa (/)
+Üstte şeffaf bir navbar: Logo (“AdwiseAI”), menüde “Ana Sayfa”, “Hakkımızda”, “Paketlerimiz”, “Ürün Bilgisi”, “Giriş Yap”.
+Büyük bir hero bölümü: “Yapay Zekâ ile Reklamlarını Akıllandır!” yazısı, altında “Reklamlarını optimize eden, hedef kitleyi analiz eden ve kampanyanı Meta üzerinde senin için yöneten sistem.” alt metni.
+Buton: “Hemen Başla” → /register sayfasına yönlendirir.
+Alt kısımda 3 kart: “Akıllı Hedefleme”, “Gerçek Zamanlı Performans”, “Düşük Maliyetli Reklam Stratejileri”.
+Tüm istekler backend’e http://localhost:5173 üzerinden gitsin.
+Hakkımızda (/about)
+Şirketin misyonu, vizyonu ve yapay zekâ destekli reklam sisteminin nasıl çalıştığını anlat.
+Görsellerle destekle: “Yapay zekâ ile veri analizi”, “Kampanya optimizasyonu”, “Başarı örnekleri” gibi başlıklar.
+Paketlerimiz (/packages)
+3 kart şeklinde plan göster:
+Başlangıç Paketi – 10$
+5 Reklam Kampanyası
+1 Haftalık Performans Raporu
+Temel AI Tavsiyesi
+Profesyonel Paket – 50$
+10 Reklam Kampanyası
+7/24 Destek
+Gelişmiş AI Hedefleme
+Kurumsal Paket – 150$
+Sınırsız Reklam Yönetimi
+Özel Raporlama Panelleri
+Kişisel Hesap Yöneticisi
+Her pakette “Satın Al” butonu olsun, tıklanınca POST http://localhost:5173/api/buy-package isteği atsın.
+Ürün Bilgisi Girişi (/product)
+Form alanları:
+Ürün Adı
+Kategori (dropdown: Moda, Teknoloji, Kozmetik, Gıda, Aksesuar, Diğer)
+Ürün Tanımı (textarea)
+Ürün Fotoğrafı (file upload)
+Hedef Kitle Tanımı (örnek: 18-25 yaş erkek, sporla ilgilenen)
+Bütçe (USD)
+“Kaydet” butonuna tıklanınca form verisini POST http://localhost:5173/api/add-product adresine JSON olarak göndersin.
+Login (/login) ve Register (/register) sayfaları
+Modern minimalist tasarım.
+Giriş için email + şifre alanı.
+Kayıt için ad soyad, email, şifre.
+Giriş sonrası / sayfasına yönlendirsin.
+Tüm auth işlemleri POST http://localhost:5173/api/auth/login ve POST http://localhost:5173/api/auth/register istekleriyle çalışsın.
+Teknik Gereksinimler:
+React + Vite kullan.
+UI için Tailwind CSS ve Shadcn UI kullan.
+Yönlendirmeler için React Router kullan.
+Axios ile API istekleri yap.
+Responsive (mobil ve masaüstü uyumlu) tasarım.
+Tüm sayfalar arası geçişlerde hafif fade animasyonu olsun (Framer Motion).
+Navbar her sayfada sabit kalsın.
+Footer’da “© 2025 AdwiseAI - Powered by LEN AI” yazsın.
+Bu proje, küçük ve orta ölçekli işletmelere yapay zekâ destekli reklam çözümleri sunan bir startup’ı tanıtmak için yapılmıştır.
+Tüm bileşenleri modern, kullanıcı dostu ve profesyonel şekilde oluştur.

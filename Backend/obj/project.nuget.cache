@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "KBzx0giNEms=",
+  "dgSpecHash": "HVlx5uRbtuQ=",
   "success": true,
-  "projectFilePath": "C:\\Users\\FurkanBARAN\\Desktop\\Yeni klasör\\Yeni klasör\\LENAI-StartUp-House-Hackathon\\Backend\\Backend.csproj",
+  "projectFilePath": "C:\\Users\\FurkanBARAN\\Desktop\\Yeni klasör\\LENAI-StartUp-House-Hackathon\\Backend\\Backend.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\FurkanBARAN\\.nuget\\packages\\azure.core\\1.38.0\\azure.core.1.38.0.nupkg.sha512",
     "C:\\Users\\FurkanBARAN\\.nuget\\packages\\azure.identity\\1.11.4\\azure.identity.1.11.4.nupkg.sha512",
