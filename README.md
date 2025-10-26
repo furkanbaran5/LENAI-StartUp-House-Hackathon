@@ -48,10 +48,9 @@ Our platform focuses on delivering intelligent ad strategies by connecting AI ca
 
 ```
 LENAI-StartUp-House-Hackathon/
-├── ModernStartup/        # Frontend React interface
+├── FrontEnd/        # Frontend React interface
 ├── Backend/              # API for AI processing and Meta integration
 ├── Photos/               # Screenshots and architecture diagram
-│   └── SystemDesign.png
 └── README.md
 ```
 
